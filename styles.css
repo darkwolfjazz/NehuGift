@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#51d0de; /* Light pink background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ensure the background covers the entire viewport height */
+  overflow: hidden; /* Prevent scroll bars */
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 40%; /* Adjust the position as needed */
+  transform: translateY(-50%);
+  color: black; /* Set text color to white for better visibility on the background */
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: #ff3366;
+  color: #fff ;
+  border: none;
+  border-radius: 25px; /* Add a bit of roundness to the buttons */
+  margin: 0 20px; /* Add space between the "Yes" and "No" buttons */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+  background-color: #cc0033; /* Darker red on hover */
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 20px; /* Add a gap between the "Yes" and "No" buttons */
+  transition: background-color 0.3s ease;
+}
+
+
+#noBtn {
+  position: absolute;
+}
+
+/* .love-page {
+  display: none;
+  text-align: center;
+  padding: 50px;
+  background-color: #ff3366;
+  color: #fff;
+} */
+
+.love-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens if needed */
+}
+
+
+
